@@ -1,0 +1,75 @@
+شعرهای دارای برچسب: 926
+نشانی یافت‌شده: 926
+  100/926 شعر — 390 بیت
+  200/926 شعر — 1025 بیت
+  300/926 شعر — 1544 بیت
+  400/926 شعر — 1840 بیت
+  500/926 شعر — 2186 بیت
+  600/926 شعر — 2666 بیت
+  700/926 شعر — 2988 بیت
+  800/926 شعر — 3807 بیت
+  900/926 شعر — 4300 بیت
+
+نوشته شد: C:\Users\Mahtel Mob\Desktop\TheProject\corpus\ganjoor_labeled.jsonl
+کل بیت یکتا: 4751  (خام: 4370)
+  train: مثبت=723  منفی=2423
+  val: مثبت=177  منفی=573
+  test: مثبت=243  منفی=612
+شاعران: 7
+شعرهای ناموفق: 30
+Exception ignored while finalizing file <http.client.HTTPResponse object at 0x000001AE252A5CC0>:
+Traceback (most recent call last):
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 432, in close
+    super().close() # set "closed" flag
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 445, in flush
+    self.fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored while finalizing file <http.client.HTTPResponse object at 0x000001AE2549C5B0>:
+Traceback (most recent call last):
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 432, in close
+    super().close() # set "closed" flag
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 445, in flush
+    self.fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored while finalizing file <http.client.HTTPResponse object at 0x000001AE255C2560>:
+Traceback (most recent call last):
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 432, in close
+    super().close() # set "closed" flag
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 445, in flush
+    self.fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored while finalizing file <http.client.HTTPResponse object at 0x000001AE26536D40>:
+Traceback (most recent call last):
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 432, in close
+    super().close() # set "closed" flag
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 445, in flush
+    self.fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored while finalizing file <http.client.HTTPResponse object at 0x000001AE26B8BD90>:
+Traceback (most recent call last):
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 432, in close
+    super().close() # set "closed" flag
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 445, in flush
+    self.fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored while finalizing file <http.client.HTTPResponse object at 0x000001AE26BD8070>:
+Traceback (most recent call last):
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 432, in close
+    super().close() # set "closed" flag
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 445, in flush
+    self.fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored while finalizing file <http.client.HTTPResponse object at 0x000001AE26EC7DF0>:
+Traceback (most recent call last):
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 432, in close
+    super().close() # set "closed" flag
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 445, in flush
+    self.fp.flush()
+ValueError: I/O operation on closed file.
+Exception ignored while finalizing file <http.client.HTTPResponse object at 0x000001AE26E0CCA0>:
+Traceback (most recent call last):
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 432, in close
+    super().close() # set "closed" flag
+  File "C:\Users\Mahtel Mob\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 445, in flush
+    self.fp.flush()
+ValueError: I/O operation on closed file.

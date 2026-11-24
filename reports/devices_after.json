@@ -1,0 +1,447 @@
+{
+  "n_items": 109,
+  "devices": {
+    "تکرار": {
+      "precision": 0.8666666666666667,
+      "recall": 0.8125,
+      "f1": 0.8387096774193549,
+      "accuracy": 0.9541284403669725,
+      "tp": 13,
+      "fp": 2,
+      "fn": 3,
+      "tn": 91,
+      "lenient_recall": 0.8125,
+      "fp_examples": [
+        {
+          "id": "talmih-01",
+          "text": "یوسف گم‌گشته بازآید به کنعان، غم مخور / کلبهٔ احزان شود روزی گلستان، غم مخور",
+          "gold": [
+            "تلمیح"
+          ]
+        },
+        {
+          "id": "tazmin-neg-02",
+          "text": "یوسف گم‌گشته بازآید به کنعان غم مخور / کلبهٔ احزان شود روزی گلستان غم مخور",
+          "gold": []
+        }
+      ],
+      "fn_examples": [
+        "ihaam-01",
+        "ihaam-02",
+        "takrir-02"
+      ]
+    },
+    "واج‌آرایی": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "tn": 105,
+      "lenient_recall": 1.0,
+      "fp_examples": [],
+      "fn_examples": []
+    },
+    "جناس": {
+      "precision": 0.75,
+      "recall": 0.8571428571428571,
+      "f1": 0.7999999999999999,
+      "accuracy": 0.944954128440367,
+      "tp": 12,
+      "fp": 4,
+      "fn": 2,
+      "tn": 91,
+      "lenient_recall": 0.8666666666666667,
+      "fp_examples": [
+        {
+          "id": "asloob-02",
+          "text": "هر کسی را که سرِ درد دارد / سخنِ عشق بر او کار کند",
+          "gold": [
+            "اسلوب معادله"
+          ]
+        },
+        {
+          "id": "plain-04",
+          "text": "جلسه ساعتِ ده آغاز می‌شود / لطفاً به‌موقع حاضر شوید",
+          "gold": []
+        },
+        {
+          "id": "tasdir-01",
+          "text": "دلِ من، ای دل، شکسته شد ز غمِ دل / که یادِ او به دلم ماند",
+          "gold": [
+            "رد العجز علی الصدر"
+          ]
+        },
+        {
+          "id": "aks-02",
+          "text": "دل و جان و غم / غم و جان و دل",
+          "gold": [
+            "عکس",
+            "تکرار",
+            "رد العجز علی الصدر"
+          ]
+        }
+      ],
+      "fn_examples": [
+        "ihaam-01",
+        "jenas-04"
+      ]
+    },
+    "سجع": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "accuracy": 0.9908256880733946,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "tn": 107,
+      "lenient_recall": 0.5,
+      "fp_examples": [],
+      "fn_examples": [
+        "saj-02"
+      ]
+    },
+    "موازنه": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "tn": 108,
+      "lenient_recall": 1.0,
+      "fp_examples": [],
+      "fn_examples": []
+    },
+    "تشبیه": {
+      "precision": 1.0,
+      "recall": 0.7272727272727273,
+      "f1": 0.8421052631578948,
+      "accuracy": 0.9724770642201835,
+      "tp": 8,
+      "fp": 0,
+      "fn": 3,
+      "tn": 98,
+      "lenient_recall": 0.7272727272727273,
+      "fp_examples": [],
+      "fn_examples": [
+        "talmih-02",
+        "talmih-04",
+        "hesamizi-03"
+      ]
+    },
+    "استعاره": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "accuracy": 0.981651376146789,
+      "tp": 4,
+      "fp": 0,
+      "fn": 2,
+      "tn": 103,
+      "lenient_recall": 0.6666666666666666,
+      "fp_examples": [],
+      "fn_examples": [
+        "esteare-03",
+        "esteare-05"
+      ]
+    },
+    "تشخیص": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "accuracy": 0.981651376146789,
+      "tp": 8,
+      "fp": 0,
+      "fn": 2,
+      "tn": 99,
+      "lenient_recall": 0.8,
+      "fp_examples": [],
+      "fn_examples": [
+        "esteare-04",
+        "vaj-02"
+      ]
+    },
+    "کنایه": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091,
+      "accuracy": 0.9908256880733946,
+      "tp": 5,
+      "fp": 0,
+      "fn": 1,
+      "tn": 103,
+      "lenient_recall": 0.8333333333333334,
+      "fp_examples": [],
+      "fn_examples": [
+        "kenaye-03"
+      ]
+    },
+    "مجاز": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "accuracy": 0.9908256880733946,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "tn": 107,
+      "lenient_recall": 0.5,
+      "fp_examples": [],
+      "fn_examples": [
+        "majaz-01"
+      ]
+    },
+    "ایهام": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "accuracy": 0.981651376146789,
+      "tp": 2,
+      "fp": 0,
+      "fn": 2,
+      "tn": 105,
+      "lenient_recall": 0.5,
+      "fp_examples": [],
+      "fn_examples": [
+        "ihaam-01",
+        "jenas-01"
+      ]
+    },
+    "تلمیح": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "accuracy": 0.9908256880733946,
+      "tp": 4,
+      "fp": 0,
+      "fn": 1,
+      "tn": 104,
+      "lenient_recall": 0.8333333333333334,
+      "fp_examples": [],
+      "fn_examples": [
+        "talmih-01"
+      ]
+    },
+    "تضمین": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "tn": 106,
+      "lenient_recall": 1.0,
+      "fp_examples": [],
+      "fn_examples": []
+    },
+    "حس‌آمیزی": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "tn": 106,
+      "lenient_recall": 1.0,
+      "fp_examples": [],
+      "fn_examples": []
+    },
+    "مراعات نظیر": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091,
+      "accuracy": 0.981651376146789,
+      "tp": 10,
+      "fp": 2,
+      "fn": 0,
+      "tn": 97,
+      "lenient_recall": 1.0,
+      "fp_examples": [
+        {
+          "id": "ihaam-02",
+          "text": "ماهِ من ماهِ تمام است و ماهِ آسمان / هر دو نورند ولی یکسان نه",
+          "gold": [
+            "تکرار",
+            "جناس",
+            "واج‌آرایی"
+          ]
+        },
+        {
+          "id": "talmih-02",
+          "text": "چو فرهاد از غمِ شیرین به کوهِ بیستون شد / دلش از سنگِ خارا بود و جانش آتشین",
+          "gold": [
+            "تلمیح",
+            "تشبیه",
+            "ایهام"
+          ]
+        }
+      ],
+      "fn_examples": []
+    },
+    "تضاد": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1": 0.9411764705882353,
+      "accuracy": 0.9908256880733946,
+      "tp": 8,
+      "fp": 1,
+      "fn": 0,
+      "tn": 100,
+      "lenient_recall": 1.0,
+      "fp_examples": [
+        {
+          "id": "jenas-04",
+          "text": "دلِ من و گلِ من هر دو شکفته‌اند / لیک یکی خار دارد و یکی یار",
+          "gold": [
+            "جناس",
+            "تکرار"
+          ]
+        }
+      ],
+      "fn_examples": []
+    },
+    "تناقض": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "accuracy": 0.9908256880733946,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "tn": 107,
+      "lenient_recall": 0.6666666666666666,
+      "fp_examples": [],
+      "fn_examples": [
+        "tenaghoz-02"
+      ]
+    },
+    "حسن تعلیل": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "accuracy": 0.9908256880733946,
+      "tp": 4,
+      "fp": 0,
+      "fn": 1,
+      "tn": 104,
+      "lenient_recall": 0.8,
+      "fp_examples": [],
+      "fn_examples": [
+        "vaj-02"
+      ]
+    },
+    "اسلوب معادله": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "accuracy": 0.9908256880733946,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "tn": 107,
+      "lenient_recall": 0.5,
+      "fp_examples": [],
+      "fn_examples": [
+        "asloob-01"
+      ]
+    },
+    "اغراق": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "tn": 106,
+      "lenient_recall": 1.0,
+      "fp_examples": [],
+      "fn_examples": []
+    },
+    "لیپه": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "accuracy": 0.9908256880733946,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "tn": 107,
+      "lenient_recall": 0.5,
+      "fp_examples": [],
+      "fn_examples": [
+        "lipe-02"
+      ]
+    },
+    "رد العجز علی الصدر": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "accuracy": 0.981651376146789,
+      "tp": 3,
+      "fp": 1,
+      "fn": 1,
+      "tn": 104,
+      "lenient_recall": 0.75,
+      "fp_examples": [
+        {
+          "id": "esteare-neg-01",
+          "text": "شیر در بیشه ایستاده بود / شیرِ مادر به کاسه بود",
+          "gold": [
+            "جناس",
+            "ایهام"
+          ]
+        }
+      ],
+      "fn_examples": [
+        "redojoz-01"
+      ]
+    },
+    "تجاهل العارف": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "tn": 107,
+      "lenient_recall": 1.0,
+      "fp_examples": [],
+      "fn_examples": []
+    },
+    "عکس": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "tn": 107,
+      "lenient_recall": 1.0,
+      "fp_examples": [],
+      "fn_examples": []
+    },
+    "استفهام انکاری": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "tn": 106,
+      "lenient_recall": 1.0,
+      "fp_examples": [],
+      "fn_examples": []
+    }
+  }
+}
